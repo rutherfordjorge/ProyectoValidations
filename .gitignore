@@ -1,0 +1,118 @@
+## OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+## IDE / Editors
+.vs/
+.idea/
+*.sln.iml
+
+# VS Code: ignora todo salvo archivos de workspace útiles
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## Build / Outputs
+bin/
+obj/
+out/
+[Bb]uild[Ll]og.*
+*.Cache
+
+## Logs / Test Results / Coverage
+logs/
+*.log
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+.vscode-test/
+
+## NuGet / Artifacts
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+artifacts/
+
+## User files / Misc
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.history/
+mono_crash.*
+
+## Publish / Deployment
+# Si quieres versionar *.pubxml, quita la siguiente línea y deja sólo *.pubxml.user
+*.pubxml
+*.pubxml.user
+*.[Pp]ublish.xml
+*.azurePubxml
+*.publishproj
+PublishProfiles/*.pubxml.user
+PublishScripts/
+
+## Azure / Functions / Emuladores
+csx/
+*.build.csdef
+ecf/
+rcf/
+
+## Node / Front-end (opcional)
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+## Secrets / Config locales
+.env
+.env.*
+*.local.json
+appsettings.*.local.json
+appsettings.Local.json
+secrets.*
+*secrets*.json
+*.pfx
+*.p12
+*.key
+
+## Databases (locales)
+*.mdf
+*.ldf
+*.ndf
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+## Análisis estático / QA
+.sonarqube/
+.scannerwork/
+.qodana/
+StyleCopReport.xml
+
+## Playwright / Allure
+playwright-report/
+test-results/
+allure-results/
+allure-report/
+allure-history/
+reports/
+
+## Docker (opcionales)
+docker-compose.override.yml
+**/.docker/
+**/*.dcproj.user
+
+## Otros
+.orleans.codegen.cs
