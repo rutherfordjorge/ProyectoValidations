@@ -1,0 +1,7 @@
+{
+  "$schema": "vscode://schemas/extensions",
+  "recommendations": [
+    "ms-dotnettools.csharp",
+    "sonarsource.sonarlint-vscode"
+  ]
+}
