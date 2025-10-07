@@ -1,0 +1,8 @@
+{
+  "omnisharp.enableRoslynAnalyzers": true,
+  "omnisharp.enableEditorConfigSupport": true,
+  "omnisharp.analyzerExecutionMode": "live",
+  "sonarlint.connectedMode.project": {
+    "path": "ProyectoValidations.sln"
+  }
+}
